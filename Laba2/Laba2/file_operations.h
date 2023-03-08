@@ -15,4 +15,6 @@ public:
 
 	bool write(const Product& product) const;
 	bool read() const;
+	bool read(const char* filename) const;
+	bool generate_output(PRODUCT_TYPE type) const;
 };

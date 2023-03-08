@@ -21,5 +21,16 @@ int main() {
 
 	fm.read();
 
+	int type;
+	std::cout << "Choose the type:\n";
+	std::cout << "#0 = KITCHEN\n";
+	std::cout << "#1 = BAR\n";
+	std::cout << "#2 = OFFICE\n";
+	std::cout << "#3 = COMPUTER\n";
+	std::cin >> type;
+
+	fm.generate_output(static_cast<PRODUCT_TYPE>(type));
+	fm.read("output.txt");
+
 	return 0;
 }

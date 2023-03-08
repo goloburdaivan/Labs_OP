@@ -23,7 +23,7 @@ struct Product {
 		std::cout << std::setfill(' ') << std::setw(30) << "Product" << std::endl;
 		std::cout << std::setfill('=') << std::setw(50) << " = " << std::endl;
 		std::cout << "Name: " << name << std::endl;
-		std::cout << "Type: " << type << std::endl;
+		std::cout << "Color: " << color << std::endl;
 		print_type(type);
 		std::cout << "Price: " << price << std::endl;
 		std::cout << "Available: " << available << std::endl;
