@@ -14,8 +14,6 @@ int main(int argc, char** argv) {
 	std::cout << "Enter number of occurences: ";
 	std::cin >> k;
 
-	int counter = 0;
-
 	if (!set_mode(argc, argv, mode)) {
 		std::cout << "[ERROR] Wrong mode! See -mode help for more information." << std::endl;
 		return 0;
